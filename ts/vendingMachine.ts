@@ -1,7 +1,9 @@
+// imports the files that have been exported
 import getVendingProduct from './productFactory'
 import * as Coin from "./coin"
 import {Product, Initial as Init} from './product'
 
+// the grid size of products
 export enum VendingMachineSize {
 	small = 6,
 	medium = 9,

@@ -1,5 +1,6 @@
 import * as products from './product'
-
+// this switch statement allows a random number to be generated which selects a product that 
+// will be displayed to the screen
 	export default function GetProduct(): products.Product {
     	let random = Math.floor(Math.random() * 11);
     	switch(random) {

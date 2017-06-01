@@ -6,3 +6,5 @@
         "module": "amd"
    }
 }
+
+//the compiler transpiles the typescript files to javacsript files using this config setup
